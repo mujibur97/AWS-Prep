@@ -40,7 +40,6 @@ jobs:
           name: tfplan
           path: tfplan
 
-
   terraform-apply:
     name: Terraform Apply
     needs: terraform-plan
